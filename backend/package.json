@@ -5,6 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest",
+    "start":"node app.js",
     "server": "nodemon app.js"
   },
   "keywords": [],
