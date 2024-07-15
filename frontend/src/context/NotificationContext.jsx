@@ -9,7 +9,7 @@ export const useNotifications = () => {
 
 export const NotificationContextProvider = ({ children }) => {
     const [notifications, setNotifications] = React.useState([]);
-    const socket = io('https://book-store-app-q3hq.onrender.com', {
+    const socket = io('https://online-book-store-app.onrender.com', {
         withCredentials: true
     });
 

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://book-store-app-q3hq.onrender.com/',  // Adjust the base URL as needed
+    baseURL: 'https://online-book-store-app.onrender.com/',  // Adjust the base URL as needed
 });
 
 api.interceptors.request.use(config => {
